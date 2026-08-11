@@ -30,8 +30,10 @@ Aqui está um breve passo a passo de como configurar o ambiente para desenvolver
     flutter doctor
 
   -Esse comando verifica todo o ambiente (SDK, Android Studio, VS Code, dispositivos conectados) e mostra com [✓] o que está certo e com [✗] o que ainda falta ajustar. Se todos os itens aparecerem certos, o ambiente está pronto pra desenvolver com Flutter.
-  
-=============English version=============                                                                         
+
+=============================================
+English version
+=============================================
 Flutter is an open-source framework designed for mobile and multi-platform development (Android, iOS, Web, Windows, Linux, macOS) that uses the Dart language.
 
 Here is a brief step-by-step guide on how to set up the environment for Flutter development:
