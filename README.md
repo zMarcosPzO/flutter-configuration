@@ -142,18 +142,3 @@ Se a tela exibir 'Hello, world!', isso indica que o ambiente está configurado c
 
 | Comando `flutter` não reconhecido | Verifique se o caminho `flutter/bin` foi adicionado corretamente ao `PATH` e reinicie o terminal |
 
-| Licenças do Android pendentes | Execute `flutter doctor --android-licenses` e aceite todas |
-
-| Emulador não inicia | Verifique se a virtualização (VT-x/AMD-V) está habilitada na BIOS |
-
-| `flutter doctor` trava em “Waiting for another flutter command” | Delete o arquivo de lock em `flutter/bin/cache/lockfile` |
-
----
-
-## Recursos adicionais
-
-- [Documentação oficial do Flutter](https://docs.flutter.dev)
-
-- [Cookbook do Flutter](https://docs.flutter.dev/cookbook)
-
-- [Pub.dev — pacotes Flutter/Dart](https://pub.dev)
