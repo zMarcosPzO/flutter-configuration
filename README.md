@@ -2,21 +2,6 @@
 
 Flutter é um framework de código aberto voltado para desenvolvimento mobile e multiplataforma (Android, iOS, Web, Windows, Linux, macOS), tendo como linguagem principal o **Dart**.
 
-Este guia mostra o passo a passo para configurar o ambiente de desenvolvimento em Flutter.
-
-## Índice
-
-1. [Pré-requisitos](#1-pré-requisitos)
-2. [Baixando o Flutter SDK](#2-baixando-o-flutter-sdk)
-3. [Configurando as variáveis de ambiente](#3-configurando-as-variáveis-de-ambiente)
-4. [Instalando o editor de código](#4-instalando-o-editor-de-código)
-5. [Criando um emulador](#5-criando-um-emulador)
-6. [Verificando a instalação](#6-verificando-a-instalação)
-7. [Testando com um Hello World](#7-testando-com-um-hello-world)
-8. [Problemas comuns](#8-problemas-comuns)
-
----
-
 ## 1. Pré-requisitos
 
 O Flutter pode ser um pouco pesado, por isso vale checar os requisitos mínimos antes de começar:
