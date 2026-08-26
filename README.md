@@ -4,7 +4,7 @@ Flutter é um framework de código aberto voltado para desenvolvimento mobile e 
 
 ## 1. Pré-requisitos
 
-O Flutter pode ser um pouco pesado, por isso vale checar os requisitos mínimos antes de começar:
+O Flutter necessita de alguns requesitos antes de começar a sua instalação:
 
 - **Memória RAM:** recomendado 8 GB ou mais
 - **Espaço em disco:** no mínimo 2,5 GB livres (Windows), podendo variar em outros sistemas
@@ -13,13 +13,11 @@ O Flutter pode ser um pouco pesado, por isso vale checar os requisitos mínimos 
 
 ## 2. Baixando o Flutter SDK
 
-- Acesse [flutter.dev](https://flutter.dev) e baixe o SDK correspondente ao seu sistema operacional (`.zip` para Windows, `.zip`/`.dmg` para macOS, ou via terminal no Linux)
+- Acesse [flutter.dev](https://flutter.dev) e baixe o SDK correspondente ao seu sistema operacional
 - Extraia a pasta em um local sem espaços ou caracteres especiais no caminho (ex: `C:\src\flutter` no Windows)
-- Evite pastas que exijam privilégios de administrador, como `Program Files`
+
 
 ## 3. Configurando as variáveis de ambiente
-
-Esse é o passo que mais trava quem está começando — é ele que faz o comando `flutter` funcionar em qualquer lugar do terminal.
 
 **Windows:**
 1. Pesquise por "Variáveis de Ambiente" no menu Iniciar
@@ -39,13 +37,13 @@ O Flutter é compatível tanto com **Android Studio** quanto com **VS Code**.
 **Opção A — Android Studio:**
 - Baixe e instale em [developer.android.com/studio](https://developer.android.com/studio)
 - Durante a instalação, garanta que o Android SDK, o Android SDK Platform-Tools e o Android Virtual Device sejam instalados
-- Instale o plugin **Flutter** pelo menu `Plugins` (ele já instala o plugin Dart junto)
-
+- Instale o plugin **Flutter** pelo menu `Plugins`
+- O Android Studio pode ser um pouco pesado, caso sua máquina tenha pouca memória, recomenda-se utilizar o VS code
+  
 **Opção B — VS Code:**
 - Baixe e instale em [code.visualstudio.com](https://code.visualstudio.com)
 - Instale a extensão **Flutter** (que já traz o Dart Code junto)
 - Reinicie o VS Code após a instalação
-- Mesmo usando VS Code, ainda é necessário instalar o Android Studio (ou pelo menos o Android SDK via `sdkmanager`) para compilar para Android
 
 ## 5. Criando um emulador
 
@@ -53,7 +51,6 @@ O Flutter é compatível tanto com **Android Studio** quanto com **VS Code**.
 - Clique em **Create Device**, escolha um modelo de celular e uma imagem de sistema (recomendado: a versão mais recente do Android com Google Play)
 - Finalize a criação e inicie o emulador antes de rodar o app
 
-Alternativamente, você pode conectar um celular físico com a **depuração USB** ativada.
 
 ## 6. Verificando a instalação
 
@@ -75,7 +72,7 @@ cd hello_world
 flutter run
 ```
 
-Ou, se preferir testar rapidamente com um código simples:
+Se preferir testar rapidamente com um código simples:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -100,14 +97,6 @@ Se a tela exibir "Hello, world!", o ambiente está configurado corretamente.
 | Problema | Possível solução |
 |---|---|
 | Comando `flutter` não reconhecido | Verifique se o caminho `flutter/bin` foi adicionado corretamente ao `PATH` e reinicie o terminal |
-| Licenças do Android pendentes | Execute `flutter doctor --android-licenses` e aceite todas |
 | Emulador não inicia | Verifique se a virtualização (VT-x/AMD-V) está habilitada na BIOS |
-| `flutter doctor` trava em "Waiting for another flutter command" | Delete o arquivo de lock em `flutter/bin/cache/lockfile` |
 
----
-
-## Recursos adicionais
-
-- [Documentação oficial do Flutter](https://docs.flutter.dev)
-- [Cookbook do Flutter](https://docs.flutter.dev/cookbook)
-- [Pub.dev — pacotes Flutter/Dart](https://pub.dev)
+--
